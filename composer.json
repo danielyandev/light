@@ -1,0 +1,23 @@
+{
+    "name": "danielyandev/light",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ruben Danielyan",
+            "email": "rub1994.13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    },
+    "require": {
+        "danielyandev/lightcore": "*"
+    }
+}

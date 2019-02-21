@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+
+<?php
+
+/**
+ * Define base variables
+ */
+define('BASE_DIR', getcwd());
+
+require __DIR__.'/vendor/autoload.php';
+
+$terminal = new Core\Terminal\Terminal();
+
+$terminal->handle($argv);
